@@ -26,6 +26,63 @@ body {
   margin-bottom: 4px !important;
 }
 
+.box-white {
+  background-color: #fff;
+}
+
+.box-seminar {
+  padding: 85px 140px;
+}
+
+.box-seminar-speaker {
+  display: flex;
+  padding: 40px 30px 40px 50px;
+  border-bottom: 2px solid #ededed;
+}
+
+.box-seminar-speaker-last {
+  display: flex;
+  padding: 40px 30px 0px 50px;
+}
+
+.box-title {
+  color: #000;
+  margin: 0px 40px;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.seminar-speaker-name {
+  color: #688ad2;
+}
+
+.seminar-speaker-picture img {
+  max-width: 185px;
+}
+
+.seminar-speaker-description {
+  font-size: 1em;
+  margin-top: -10px;
+  margin-left: 80px;
+}
+
+ul {
+  margin: 0;
+}
+ul.dashed {
+  list-style-type: none;
+  padding-top: 7.5px;
+  padding-left: 5px;
+  line-height: 1.4;
+}
+ul.dashed > li {
+  text-indent: -5px;
+}
+ul.dashed > li:before {
+  content: "-";
+  text-indent: -5px;
+}
+
 .column-direction {
   flex-direction: column;
 }
