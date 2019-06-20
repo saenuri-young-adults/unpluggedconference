@@ -1,3 +1,26 @@
+@font-face {
+  font-family: FoundersGrotesk;
+  font-weight: bold;
+  src: url("./assets/fonts/FoundersGrotesk-SemiboldCnd.otf") format("opentype");
+}
+
+@font-face {
+  font-family: NanumSquareRound;
+  font-weight: lighter;
+  src: url("./assets/fonts/NanumSquareRoundOTFL.otf") format("opentype");
+}
+
+@font-face {
+  font-family: NanumSquareRound;
+  src: url("./assets/fonts/NanumSquareRoundOTFR.otf") format("opentype");
+}
+
+@font-face {
+  font-family: NanumSquareRound;
+  font-weight: bold;
+  src: url("./assets/fonts/NanumSquareRoundOTFB.otf") format("opentype");
+}
+
 body {
   background-color: #ededed;
   /* height: 100vh; */
@@ -6,7 +29,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: NanumSquareRound;
 }
 
 .main-page {
@@ -30,6 +53,21 @@ body {
   background-color: #fff;
 }
 
+.box-intro {
+  padding: 85px 0px;
+}
+
+.box-main-speaker {
+  position: relative;
+}
+
+.box-main-speaker-description {
+  position: absolute;
+  top: 105px;
+  left: 195px;
+  text-align: right;
+}
+
 .box-seminar {
   padding: 85px 140px;
 }
@@ -47,9 +85,8 @@ body {
 
 .box-title {
   color: #000;
-  margin: 0px 40px;
-  font-size: 1.5em;
-  font-weight: 700;
+  margin: 0px 45px;
+  font-size: 2em;
 }
 
 .seminar-speaker-name {
@@ -61,8 +98,7 @@ body {
 }
 
 .seminar-speaker-description {
-  font-size: 1em;
-  margin-top: -10px;
+  font-size: 0.95em;
   margin-left: 80px;
 }
 
@@ -160,22 +196,36 @@ video.fullscreen {
   transform: translate(-50%, -50%);
 }
 
-.payment-link {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none !important;
-  margin: 0px 10px;
-}
-
-.contact {
-  margin-top: 8px;
+.box-info {
+  height: 354px;
+  line-height: 354px;
+  font-size: 1em;
+  top: 0px;
+  right: 120px;
+  color: white;
 }
 
 .link-text {
     color: white;
     font-family: 'Roboto';
-    font-size: 1.8em;
-    font-style: italic;
+}
+
+.button-register {
+  background-color: #688ad2;
+}
+
+.font-founder-grotesk {
+  font-family: FoundersGrotesk;
+}
+
+.font-nanum-square-round-light {
+  font-family: NanumSquareRound;
+  font-weight: lighter;
+}
+
+.footer {
+  background-color: #1d1d1d;
+  height: 180px;
+  line-height: 180px;
+  padding: 0px 140px;
 }
