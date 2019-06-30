@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"name": "unpluggedconference",
+			"path": "."
+		},
+		{
+			"name": "fonts",
+			"path": "/Users/wseo88/Downloads/fonts"
+		},
+		{
+			"name": "Desktop",
+			"path": "/Users/wseo88/Downloads/Web Assets/Desktop"
+		},
+		{
+			"name": "Mobile",
+			"path": "/Users/wseo88/Downloads/Web Assets/Mobile"
+		}
+	],
+	"settings": {}
+}

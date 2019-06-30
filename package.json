@@ -2,8 +2,8 @@
   "name": "unplugged-conference",
   "version": "0.0.0",
   "description": "Saenuri Church Unplugged Conference",
-  "main": "index.html",
-  "author": "Hyo Jeong",
-  "license": "MIT",
+  "main": "index.js",
+  "author": "Will Seo",
+  "license": "ISC",
   "private": false
 }

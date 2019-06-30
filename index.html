@@ -1,16 +1,17 @@
 <!DOCTYPE HTML>
 <HTML>
-   <head>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta charset="UTF-8">
-      <TITLE>Unplugged Conference</TITLE>
-      <link rel="stylesheet" href="./index.css" />
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.8/css/uikit.min.css" />
-      <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.8/js/uikit.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.8/js/uikit-icons.min.js"></script>
-   </head>
-   <body>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <TITLE>Unplugged Conference</TITLE>
+    <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/css/uikit.min.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.5/js/uikit-icons.min.js"></script>
+  </head>
+  <body>
 
      <!-- <div class="uk-height-1-1 uk-section main-page">
        <div class="loading-page-container">
@@ -25,8 +26,19 @@
        </div>
      </div> -->
 
-     <div class="info-page uk-container uk-container-medium">
+    <div class="container uk-container uk-container-medium">
 
+      <!-- Header -->
+      <div class="header" uk-sticky>
+        <img src="./assets/uclogo.png" width=60px>
+        <a target="_blank" style="margin: 15px 0px 15px 10px; letter-spacing: 0.03em;" rel="noopener noreferrer" class="uk-button button-venmo payment-link uk-align-right" href="http://venmo.com/Nayun-Kim">
+          <span class="link-text font-founder-grotesk"><span class="display-none-mobile">Pay via</span> <img src="./assets/venmo-icon.svg" width=30px;/></span>
+        </a>
+        <a target="_blank" style="margin: 15px 0px 15px 10px; letter-spacing: 0.03em;" rel="noopener noreferrer" class="uk-button button-register payment-link uk-align-right" href="https://forms.gle/AX3pgSReKn4wZoU69">
+          <span class="link-text font-founder-grotesk">Register</span>
+        </a>
+
+      </div>
       <!-- Love Banner -->
       <div>
         <img src="./assets/Desktop/Love_banner_Desktop.png" />
@@ -37,46 +49,45 @@
         <img src="./assets/Desktop/Pattern_Banner_Desktop.png" />        
       </div>
 
-      <div class="box-intro box-white uk-text-center">
+      <div class="box-welcome" style="background-color: white;">
+        <div class="uk-grid-small uk-flex-center" uk-grid>
 
-        <div>
-          <p><img src="./assets/Desktop/love-intro-desktop.png"/></p>
-        </div>
+          <div class="uk-width-2-5@m uk-text-center" uk-parallax="opacity: 0.5,1; x: -10,0; viewport: 0.5">
+            <div class="img-speaker-main-container">
+              <img class="uk-text-middle img-speaker" src="./assets/speakers/abaji2000.png" />
+              <p>
+                언플러그드 컨퍼런스 지도목사 이요한<br/>
+                (새누리교회 청년공동체 담당)
+              </p>
+            </div>
+          </div>
 
-        <div>
-          <p>
-            안녕하세요 새누리교회 청년공동체를 담당하고 있는 이요한 목사입니다.<br/>
-            이번 2019 언플러그드 콘퍼런스는 "사랑"이라는 주제를 가지고 한국 "기쁨이 넘치는 교회"<br/>
-            조지훈 목사님을 모시고 진행하게 됩니다. 올해로 세번째 맞는 "언플러그드 콘퍼런스"는<br/>
-            새누리교회 청년공동체를 중심으로 베이지역에(실리콘밸리) 모든 청년들이 함께 모여<br/>
-            세상과는 언플러그드 되고 오직 예수님께 플러그인 하여 하나님을 높이고 찬양하고 그 임재<br/>
-            안에 거하는 컨퍼런스입니다.
-          </p>
+          <div class="uk-width-3-5@m" uk-parallax="opacity: 0.5,1; x: 10,0; viewport: 0.5">
+            <div>              
+              <p>
+                안녕하세요 새누리교회 청년공동체를 담당하고 있는 이요한목사입니다.<br class="display-none-mobile"/>
+                이번 2019 언플러그드 컨퍼런스는 <b style="color: black;">사랑</b>이라는 주제를 가지고 한국 "기쁨이 넘치는 교회"
+                <b style="color: black;">조지훈</b> 목사님을 모시고 진행하게 됩니다. 올해로 세 번째 맞는 "언플러그드 컨퍼런스"는
+                새누리교회 청년공동체를 중심으로 베이 지역에(실리콘밸리) 모든 청년들이 함께 모여
+                세상과는 <b style="color: black;">언플러그드</b> 되고 오직 예수님께 <b style="color: black;">플러그인</b> 하여 하나님을 높이고 찬양하고 그 임재
+                안에 거하는 컨퍼런스입니다.
+              </p>
+              <p>
+                하나님을 사랑하고 이웃을  사랑하게 되는 귀한 컨퍼런스에 여러분을 초대합니다
+              </p>
+              <p>
+                이 컨퍼런스는 청년이면 누구나 참석하실 수 있습니다. 뜨거운 컨퍼런스 주 집회장에서 뵙겠습니다.
+                사랑하고 축복합니다.
+              </p>
+              <p>
+                <b style="color: black;">"하나님이 우리를 사랑하시는 사랑을 우리가 알고 믿었노니 하나님은 사랑이시라 사랑 안에 거하는 자는 하나님 안에 거하고 하나님도 그의 안에 거하시느니라 (요일 4:16)"</b>
+              </p>
+              <a target="_blank" rel="noopener noreferrer" class="uk-button button-register payment-link" href="https://forms.gle/AX3pgSReKn4wZoU69 ">
+                <span class="link-text font-founder-grotesk">Register Now</span>
+              </a>          
+            </div>
+          </div>
         </div>
-
-        <div>
-          <p>
-            하나님을 사랑하고 이웃을 사랑하게 되는 귀한 컨퍼런스에 여러분을 초대합니다.
-          </p>
-        </div>
-
-        <div>
-          <p>
-            이 컨퍼런스는 청년이면 누구나 참석 하실 수 있습니다. 뜨거운 컨퍼런스 주집히장 현장에서<br/>
-            뵙겠습니다. 사랑하고 축복합니다.
-          </p>
-        </div>
-
-        <div>
-          <p>
-            <b>"하나님이 우리를 사랑하시는 사랑을 우리가 알고 믿었노니 하나님은 사랑이시라 사랑 안에 거<br/>
-              하는 자는 하나님 안에 거하고 하나님도 그의 안에 거하시느니라 (요일 4:16)"</b>
-          </p>
-        </div>
-        <br/>
-        <a target="_blank" rel="noopener noreferrer" class="uk-button button-register payment-link" href="https://forms.gle/AX3pgSReKn4wZoU69 ">
-          <span class="link-text font-founder-grotesk">Register Now</span>
-        </a>
       </div>
 
       <!-- Collage Banner -->
@@ -84,22 +95,51 @@
         <img src="./assets/Desktop/collage-banner-desktop.png" width="100%"/>
       </div>
 
-
       <div class="box-main-speaker">
-        <img src="./assets/Desktop/main-speaker-desktop.png" width="100%"/>
-        <div class="box-main-speaker-description">
-          <div class="uk-text-bold font-founder-grotesk" style="font-size: 1.5em;color:black">MAIN SPEAKER</div>
-          <div class="uk-text-bold" style="font-size: 0.95em;color: black;">조지훈 목사님</div>
+        <div class="uk-grid-small uk-flex-center" uk-grid>
+          <div class="box-main-speaker-description uk-width-1-2@m uk-text-right" uk-parallax="opacity: 0.5,1; x: 0,10; viewport: 0.5">
+            <div class="uk-text-bold font-founder-grotesk" style="font-size: 1.5em;color:black">MAIN SPEAKER</div>
+            <div class="uk-text-bold">
+              <a target="_blank" rel="noopener noreferrer" class="uk-link-muted" style="color: black;" href="http://www.joyfulchurch.or.kr/paster">
+                조지훈 목사님
+              </a>
+            </div>
+            <p>
+              다음 세대라는 단어에 심장이 뛰는 목사<br/>
+              정장보다 청바지와 후드티를 좋아하는 목사<br/>
+              예수님과 십자가의 메세지를 전하며 눈물 흘리는 목사<br/>
+              정형화, 형식화라는 말을 제일 싫어하는 목사<br/>
+              고급 호텔보다 동네 분식점에서 떡볶이와 치킨을 제일 좋아하는 목사<br/>
+              화려한(?) 스펙은 없지만 예수님을 사랑하고 예배하는 일에<br/>
+              세계 최고의 자부심이 있는 목사<br/>
+              모세처럼 이름도 빛도 흔적도 없이 사라지고 싶은 목사
+            </p>
+          </div>
 
-          <div style="font-size: 0.95em; margin-top: 1em;">
-            다음 세대라는 단어에 심장이 뛰는 목사<br/>
-            정장보다 청바지와 후드티를 좋아하는 목사<br/>
-            예수님과 십자가의 메세지를 전하며 눈물 흘리는 목사<br/>
-            정형화, 형식화라는 말을 제일 싫어하는 목사<br/>
-            고급 호텔보다 동네 분식점에서 떡볶이와 치킨을 제일 좋아하는 목사<br/>
-            화려한(?) 스펙은 없지만 예수님을 사랑하고 예배하는 일에<br/>
-            세계 최고의 자부심이 있는 목사<br/>
-            모세처럼 이름도 빛도 흔적도 없이 사라지고 싶은 목사
+          <div class="uk-width-1-2@m uk-text-center" uk-parallax="opacity: 0.5,1; x: 10,0; viewport: 0.5">
+            <div>
+              <img class="uk-text-middle img-speaker" src="./assets/speakers/main/jihoon-cho.png" />
+            </div>
+          </div>
+
+          <div class="box-main-speaker-description-mobile uk-width-1-2@m" uk-parallax="opacity: 0.5,1; x: -10,0; viewport: 0.5">
+            <div class="uk-text-bold font-founder-grotesk" style="font-size: 1.5em;color:black">MAIN SPEAKER</div>
+            <div class="uk-text-bold">
+              <a target="_blank" rel="noopener noreferrer" class="uk-link-muted" style="font-size: 0.95em;color: black;" href="http://www.joyfulchurch.or.kr/paster">
+                조지훈 목사님
+              </a>
+            </div>
+
+            <p class="main-speaker-description">
+              다음 세대라는 단어에 심장이 뛰는 목사<br/>
+              정장보다 청바지와 후드티를 좋아하는 목사<br/>
+              예수님과 십자가의 메세지를 전하며 눈물 흘리는 목사<br/>
+              정형화, 형식화라는 말을 제일 싫어하는 목사<br/>
+              고급 호텔보다 동네 분식점에서 떡볶이와 치킨을 제일 좋아하는 목사<br/>
+              화려한(?) 스펙은 없지만 예수님을 사랑하고 예배하는 일에
+              세계 최고의 자부심이 있는 목사<br/>
+              모세처럼 이름도 빛도 흔적도 없이 사라지고 싶은 목사
+            </p>
           </div>
         </div>
       </div>
@@ -108,161 +148,228 @@
         <div class="box-title uk-text-bold font-founder-grotesk">SEMINAR</div>
 
         <div class="box-seminar-speaker">
-          <div class="seminar-speaker-picture">
-            <img src="./assets/Desktop/이경석집사님.png" style="margin: 37px 0px;" />
-          </div>
-          <div class="seminar-speaker-description">
-            <div class="seminar-speaker-name">이경석 집사님</div>
-
-            <div>
-              <ul class="dashed">
-                <li> 8년간 남가주에 위치한 대학교 이사, 4년간 가주침례교단 이사</li>
-                <li> 2년 동안 KEMS-TV "몰라의 외침" 프로그램 운영</li>
-                <li> 수년간 미국판 한국, 중앙일보 등에 주간 칼럼담당</li>
-                <li> 30년간 CBMC (기독실업회)를 여러 수준에서 섬김</li>
-                <li> KBC (산호세 한인침례교회) 45년 섬김</li>
-              </ul>
+          <div class="uk-grid-small uk-flex-center" uk-grid>
+            <div class="uk-width-1-3@m img-seminar-speaker" uk-parallax="opacity: 0.5,1; x: -10,0; viewport: 0.5">
+              <div class="uk-display-inline-block uk-text-middle uk-height-1-1"></div>
+              <img class="uk-text-middle img-speaker" src="./assets/speakers/seminar/kidong-kim.png" />
             </div>
+            <div class="uk-width-2-3@m" uk-parallax="opacity: 0.5,1; x: 10,0; viewport: 0.5">
+              <div class="seminar-speaker-name font-founder-grotesk">김기동 목사님</div>
 
-            <div>
-              <div style="margin-bottom: 5px;color:#1d1d1d;"><b>선택 강의: 직장생활</b></div>
-              <div style="line-height: 1.4">
-                사장의 입장에서 보는 - 직원이 어떻게 실질적으로 믿음생활을 할 수 있을까? 나의 믿음생<br/>
-                활이 직장에 어떻게 반영되어야 하는가? 지금 직장이 과연 하나님이 허락하신 곳인가? 정말<br/>
-                믿음생활이 힘든데 직장을 그만두어야 하는가? 먹고살기위해 꼭 직장을 다녀야만 하는가?<br/>
-                혹은 사업을 하면 쉬울까? 일을 (직장 and/or 사업)을 꼭 해야만 하는가? 등등을 가지고<br/>
-                이야기 나누고 고민을 같이 해보죠.
+              <div>
+                <ul class="dashed">
+                  <li> 한국에서 10년 동안 고구마 전도왕으로 평신도 사역</li>
+                  <li> 볼티모어 벧엘교회에서 풀타임 전도 사역자</li>
+                  <li> 현, 소중한 교회 담임 목사</li>
+                </ul>
+              </div>
+              <br/>
+              <div>
+                <div style="margin-bottom: 5px;color:#1d1d1d;"><b>선택 강의: 전도</b></div>
+                <div style="line-height: 1.4">
+                  이번 2019 언플러그드 컨퍼런스 선택강의 "전도" 관련 세미나는 전도에 대한 탁월한 강사이신
+                  LA소재 소중한교회 담임목사님이신 김기동목사님을 모셨습니다.<br/>
+                  <br/>
+                  '고구마 전도왕'으로 유명한 목사님께서 직접오셔서 한 영혼을 소중히 여기며 나의 삶의
+                  터전에서 전도에 대한 성경적인 방법과 훈련을 소개하는 귀한 세미나가 될것입니다.<br/>
+                  <br/>
+                  고구마전도란…<br/>
+                  전도 대상자를 고구마에 빗대어 지칭한다: '생고구마'는 복음을 강력히 거부하는 사람.'
+                  '익은 고구마'는 복음에 긍정적으로 반응하는 사람을 말한다. 전도를 위해서는 고구마가
+                  익었는지를 젓가락으로 찔러보듯 계속해서 '예수를 믿으라'고 전해야 한다는 전도방법으로
+                  김기동목사가 착안해 낸 방법이다.
+                </div>
               </div>
             </div>
           </div>
         </div>
 
         <div class="box-seminar-speaker">
-          <div class="seminar-speaker-picture">
-            <img src="./assets/Desktop/서지영선생님.png" style="margin: 30px 0px;" />
-          </div>
-          <div class="seminar-speaker-description">
-            <div class="seminar-speaker-name">서지영 선생님</div>
-
-            <div>
-              <ul class="dashed">
-                <li> 연세대학교 사회복지학 석사 졸업</li>
-                <li> 어린이재단 13년 근무</li>
-                <li> 전문부모교육 강사 및 코칭강사</li>
-                <li> 아동청소년 상담사</li>
-                <li> 현, Gardener Elementary School Specialized IA</li>
-              </ul>
+          <div class="uk-grid-small uk-flex-center" uk-grid>
+            <div class="uk-width-1-3@m img-seminar-speaker" uk-parallax="opacity: 0.5,1; x: -10,0; viewport: 0.5">
+              <div class="uk-display-inline-block uk-text-middle uk-height-1-1"></div>
+              <img class="uk-text-middle img-speaker" src="./assets/speakers/seminar/kyungseok-lee.png" />
             </div>
+            <div class="uk-width-2-3@m" uk-parallax="opacity: 0.5,1; x: 10,0; viewport: 0.5">
+              <div class="seminar-speaker-name font-founder-grotesk">이경석 집사님</div>
 
-            <div>
-              <div style="margin-bottom: 5px;color:#1d1d1d;"><b>선택 강의: MBTI "나를 찾아 떠나는 여행"</b></div>
-              <div style="line-height: 1.4">
-                C.G JUNG의 심리유형론 이론을 바탕으로 1900 - 1975년에 걸쳐, Katherine Cook<br/>
-                Briggs와 Isabel Briggs Myers에 의해 개발되었습니다. MBTI는 16가지 성격유형으로 나뉘며,<br/>
-                자신의 성격유형이나 관련한 직업에 대한 탐색에 유용하게 활용할 수 있으며, 기업 및 학교,<br/>
-                그룹 내에서의 인간관계 기술을 향상시키고, life 코칭에도 유용하게 활용될 수 있는 성격유형<br/>
-                탐색검사 입니다.
+              <div>
+                <ul class="dashed">
+                  <li> 8년간 남가주에 위치한 대학교 이사, 4년간 가주침례교단 이사</li>
+                  <li> 2년 동안 KEMS-TV "몰라의 외침" 프로그램 운영</li>
+                  <li> 수년간 미국판 한국, 중앙일보 등에 주간 칼럼담당</li>
+                  <li> 30년간 CBMC (기독실업회)를 여러 수준에서 섬김</li>
+                  <li> KBC (산호세 한인침례교회) 45년 섬김</li>
+                </ul>
+              </div>
+              <br/>
+              <div>
+                <div style="margin-bottom: 5px;color:#1d1d1d;"><b>선택 강의: 크리스찬의 직장생활</b></div>
+                <div style="line-height: 1.4">
+                  사장의 입장에서 보는 - 직원이 어떻게 실질적으로 믿음생활을 할 수 있을까? 나의 믿음생활이
+                  직장에 어떻게 반영되어야 하는가? 지금 직장이 과연 하나님이 허락하신 곳인가? 정말
+                  믿음생활이 힘든데 직장을 그만두어야 하는가? 먹고살기위해 꼭 직장을 다녀야만 하는가?
+                  혹은 사업을 하면 쉬울까? 일(직장 and/or 사업)을 꼭 해야만 하는가? 등등을 가지고
+                  이야기 나누고 고민을 같이 해보죠.
+                </div>
               </div>
             </div>
           </div>
         </div>
 
         <div class="box-seminar-speaker">
-          <div class="seminar-speaker-picture">
-            <img src="./assets/Desktop/매튜리목사님.png" style="margin: 8px 0px;"/>
-          </div>
-          <div class="seminar-speaker-description">
-            <div class="seminar-speaker-name">매튜 리 목사님</div>
-
-            <div>
-              <ul class="dashed">
-                <li> 크리스챤 패밀리 리소스 대표</li>
-                <li> 현, 실리콘 밸리 지역에서 Priave Practice를 하며 각종 정신질환, 가정문제, 부부문제<br/>자녀문제등을 상담과 심리치료</li>
-              </ul>
+          <div class="uk-grid-small" uk-grid>
+            <div class="uk-width-1-3@m img-seminar-speaker" uk-parallax="opacity: 0.5,1; x: -10,0; viewport: 0.5">
+              <div class="uk-display-inline-block uk-text-middle uk-height-1-1"></div>
+              <img class="uk-text-middle img-speaker" src="./assets/speakers/seminar/jiyoung-seo.png" />
             </div>
+            <div class="uk-width-2-3@m" uk-parallax="opacity: 0.5,1; x: 10,0; viewport: 0.5">
+              <div class="seminar-speaker-name font-founder-grotesk">서지영 선생님</div>
 
-            <div>
-              <div style="margin-bottom: 5px;color:#1d1d1d;"><b>선택 강의: 크리스챤 연애와 결혼</b></div>
-              <div style="line-height: 1.4">
-                사장의 입장에서 보는 - 직원이 어떻게 실질적으로 믿음생활을 할 수 있을까? 나의 믿음생<br/>
-                활이 직장에 어떻게 반영되어야 하는가? 지금 직장이 과연 하나님이 허락하신 곳인가? 정말<br/>
-                믿음생활이 힘든데 직장을 그만두어야 하는가? 먹고살기위해 꼭 직장을 다녀야만 하는가?<br/>
-                혹은 사업을 하면 쉬울까? 일을 (직장 and/or 사업)을 꼭 해야만 하는가? 등등을 가지고<br/>
-                이야기 나누고 고민을 같이 해보죠.
+              <div>
+                <ul class="dashed">
+                  <li> 연세대학교 사회복지학 석사 졸업</li>
+                  <li> 어린이재단 13년 근무</li>
+                  <li> 전문부모교육 강사 및 코칭강사</li>
+                  <li> 아동청소년 상담사</li>
+                  <li> 현, Gardener Elementary School Specialized IA</li>
+                </ul>
+              </div>
+              <br/>
+              <div>
+                <div style="margin-bottom: 5px;color:#1d1d1d;"><b>선택 강의: MBTI "나를 찾아 떠나는 여행"</b></div>
+                <div style="line-height: 1.4">
+                  C.G JUNG의 심리유형론 이론을 바탕으로 1900 - 1975년에 걸쳐, Katherine Cook
+                  Briggs와 Isabel Briggs Myers에 의해 개발되었습니다. MBTI는 16가지 성격유형으로
+                  나뉘며, 자신의 성격유형이나 관련한 직업에 대한 탐색에 유용하게 활용할 수 있으며,
+                  기업 및 학교, 그룹 내에서의 인간관계 기술을 향상시키고, life 코칭에도 유용하게 활용될 수 있는 성격유형 탐색검사 입니다.
+                </div>
               </div>
             </div>
           </div>
         </div>
 
         <div class="box-seminar-speaker-last">
-          <div class="seminar-speaker-picture">
-            <img src="./assets/Desktop/김기동목사님.png" style="margin: 0px 0px;"/>
-          </div>
-          <div class="seminar-speaker-description">
-            <div class="seminar-speaker-name">김기동 목사님</div>
-
-            <div>
-              <ul class="dashed">
-                <li> 한국에서 10년 동안 고구마 전도왕으로 평신도 사역</li>
-                <li> 볼티모어 벧엘교회에서 풀타임 전도 사역자</li>
-                <li> 현, 소중한 교회 담임 목사</li>
-              </ul>
+          <div class="uk-grid-small uk-flex-center" uk-grid>
+            <div class="uk-width-1-3@m img-seminar-speaker" uk-parallax="opacity: 0.5,1; x: -10,0; viewport: 0.5">
+              <div class="uk-display-inline-block uk-text-middle uk-height-1-1"></div>
+              <img class="uk-text-middle img-speaker" src="./assets/speakers/seminar/mathew-lee.png" />
             </div>
+            <div class="uk-width-2-3@m" uk-parallax="opacity: 0.5,1; x: 10,0; viewport: 0.5">
+              <div class="seminar-speaker-name font-founder-grotesk">매튜 리 목사님</div>
 
-            <div>
-              <div style="margin-bottom: 5px;color:#1d1d1d;"><b>선택 강의: 전도</b></div>
-              <div style="line-height: 1.4">
-                Coming soon!
+              <div>
+                <ul class="dashed">
+                  <li> 크리스챤 패밀리 리소스 대표</li>
+                  <li> 현, 실리콘 밸리 지역에서 Priave Practice를 하며 각종 정신질환, 가정문제, 부부문제<br/>자녀문제등을 상담과 심리치료</li>
+                </ul>
               </div>
+              <br/>
+              <div>
+                <div style="margin-bottom: 5px;color:#1d1d1d;"><b>선택 강의: 크리스챤의 연애와 결혼</b></div>
+                <div style="line-height: 1.4">
+                  크리스찬 청년들이 배우자를 만나고 연애하며 결혼을 해서<br class="display-none-mobile"/>
+                  부부가 되는 과정을 배우는 세미나입니다.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="box-payment-info">
+        <div class="uk-grid-small uk-flex-center" uk-grid>
+          <div class="uk-width-1-2@m">
+            <div class="box-payment-info-description">
+              <p class="uk-text-bold font-founder-grotesk" style="font-size: 1.5em; line-height: 1.1em;">
+                UNPLUGGED CONFERENCE</br>
+                <span class="info-date">6 PM, FRIDAY, AUG.23 - 11AM, SUNDAY, AUG 25</span>
+              </p>
+              <p>
+                Unplugged Conference는 새누리교회 교인이 아니여도 만 18세 이상 청년
+                이면 누구나 참가하실 수 있습니다. 그 밖의 더 자세한 사항은 등록팀
+                (<a href = "mailto:unpluggedconference@gmail.com?subject = 언플러그드 컨퍼런스 문의" style="color: white;text-decoration: underline;">unpluggedconference@gmail.com</a>) 으로 문의해주시기 바랍니다.
+              </p>
+            </div>
+          </div>
+
+          <div class="uk-width-1-2@m" style="letter-spacing:0.03em;">
+            <div class="uk-flex-center box-payment-info-price" uk-grid>
+                <div class="uk-width-1-3@s uk-width-1-2">
+                  <p>
+                    <b class="font-founder-grotesk" style="font-size: 1.4em;">Early Bird</b><br/>
+                    <span style="font-weight: 200;">Jun 15 - Jul 28</span>
+                  </p>
+                  <p class="font-founder-grotesk" style="font-size: 1.6em;"><b>$90</b></p>
+                </div>  
+                <div class="uk-width-1-3@s uk-width-1-2">
+                  <p>
+                    <b class="font-founder-grotesk" style="font-size: 1.4em;">Regular</b><br/>
+                    <span>Jun 28 - Aug 11</span>
+                  </p>
+                  <p class="font-founder-grotesk" style="font-size: 1.6em;"><b>$120</b></p>
+                </div>              
             </div>
           </div>
         </div>
       </div>
 
-      <div style="position: relative;">
-        <img src="./assets/Desktop/Bottom_Flower_Desktop-1.png" />
+      <div class="box-location-info">
 
-        <div class="box-info uk-text-middle" style="position: absolute;">
-          <div>
-            <div class="uk-display-inline-block uk-text-middle">
-              <div style="line-height: 1.5em;">
-                <div class="font-founder-grotesk" style="font-size: 1.3em; margin-bottom: 15px;"><b>COME AND JOIN US!</b></div>
-                <div class="font-nanum-square-round-light">새청공 수련회</div>
-                <div class="font-nanum-square-round-light" style="margin-top: 10px;">날짜: 8.23-8.25</div>
-                <div class="font-nanum-square-round-light">장소: <b class="font-founder-grotesk">REDWOOD CHRISTIAN PARK, CA</b></div>
-                <div><b class="font-founder-grotesk">15000 TWO BAR RD, BOULDER CREEK, CA 95006</b></div>
-                <div style="margin-bottom: 15px;">
-                  <a target="_blank"
-                    rel="noopener noreferrer"
-                    class="uk-link-muted font-founder-grotesk uk-text-bold"
-                    style="color: white;text-decoration: underline"
-                    href="https://goo.gl/maps/8VEcKpiEuXZTRRDK7">
-                    Get Directions
-                  </a>
-                </div>
-
-                <a target="_blank" rel="noopener noreferrer" class="uk-button button-register payment-link" href="https://forms.gle/AX3pgSReKn4wZoU69 ">
-                  <span class="link-text font-founder-grotesk">Register Now</span>
-                </a>
-
-              </div>
+        <div class="uk-grid-small uk-flex-center" uk-grid>
+            <div class="uk-width-2-3@s uk-width-2-3@m" style="height: 354px;">
 
             </div>
+  
+            <div class="box-info uk-width-1-3@s uk-width-1-3@m" style="letter-spacing:0.03em;">
+              <div class="uk-display-inline-block uk-text-middle">
+                  <div style="line-height: 1.5em;">
+                    <div class="font-founder-grotesk" style="font-size: 1.3em; margin-bottom: 15px;"><b>COME AND JOIN US!</b></div>
+                    <div class="font-nanum-square-round-light">새청공 수련회</div>
+                    <div class="font-nanum-square-round-light" style="margin-top: 10px;">날짜: 8.23-8.25</div>
+                    <div class="font-nanum-square-round-light">장소: <b class="font-founder-grotesk">REDWOOD CHRISTIAN PARK, CA</b></div>
+                    <div><b class="font-founder-grotesk">15000 TWO BAR RD, BOULDER CREEK, CA 95006</b></div>
+                    <div style="margin-bottom: 15px;">
+                      <a target="_blank"
+                        rel="noopener noreferrer"
+                        class="uk-link-muted font-founder-grotesk uk-text-bold"
+                        style="color: white;text-decoration: underline"
+                        href="https://goo.gl/maps/8VEcKpiEuXZTRRDK7">
+                        Get Directions
+                      </a>
+                    </div>
+    
+                    <a target="_blank" rel="noopener noreferrer" class="uk-button button-register payment-link" href="https://forms.gle/AX3pgSReKn4wZoU69 ">
+                      <span class="link-text font-founder-grotesk">Register Now</span>
+                    </a>
+                  </div>
+                </div>
+            </div>
           </div>
-        </div>
+
 
       </div>
 
       <div class="footer uk-text-middle">
         <div>
-          <div style="display: inline-block;"><img src="./assets/Desktop/unplugged-conference-logo-white.png"/></div>
+          <div class="uk-display-inline-block uk-text-middle" style="margin-left: -20px;"><img src="./assets/uclogo.png" width="80px;"/></div>
           <div class="uk-display-inline-block uk-text-middle">
-            <div class="uk-text-muted font-founder-grotesk" style="line-height: 1em; margin-left: 20px; font-size: 0.9em;">
+            <div class="uk-text-muted font-founder-grotesk" style="line-height: 1em; margin-left: 0px; font-size: 0.9em;">
               1250 W Middlefield Rd.<br/>
               Mountain View, CA 94043<br/>
-              (650) 210-0000
+              (650) 210-0000<br/>
+              unpluggedconference@gmail.com
             </div>
           </div>
+
+          <div class="uk-display-inline-block uk-float-right uk-text-middle footer-icon">
+            <a href="https://www.instagram.com/saenuri.young.adults" target="_blank" ref="instagram link" style="color:#eee;margin: 0px 5px;" uk-icon="icon: instagram" ></a>
+          </div>
+          <div class="uk-display-inline-block uk-float-right uk-text-middle footer-icon">
+            <a href="https://www.facebook.com/saenuryyoungadults" target="_blank" ref="facebook link" style="color:#eee;margin: 0px 5px;" uk-icon="icon: facebook" ></a>
+          </div>
+
         </div>
       </div>
     </div>
